@@ -3,3 +3,4 @@ const client = new Client (process.env.DATABASE_URL || 'postgres://localhost:543
 client.connect();
 
 module.exports = client;
+
